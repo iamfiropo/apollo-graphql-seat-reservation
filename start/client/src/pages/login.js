@@ -3,7 +3,6 @@ import { useApolloClient, useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 
 import { LoginForm, Loading } from "../components";
-import ApolloClient from "apollo-client";
 
 export const LOGIN_USER = gql`
   mutation login($email: String!) {
